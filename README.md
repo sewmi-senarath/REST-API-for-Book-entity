@@ -97,3 +97,79 @@ DELETE /books/{id}: Delete a book by its ID.
 
 
 GET /books/search?q=: Search books by keyword in title or description (case-insensitive).
+
+Data Storage
+
+The application uses a books.json file as the persistence layer. The file is automatically created if it doesn't exist when the application starts. Ensure the application has write permissions in the directory containing books.json.
+
+Search Optimization
+
+The search endpoint (GET /books/search) is optimized using:
+
+
+
+
+
+Goroutines: Books are split into subsets, and each subset is searched concurrently.
+
+
+
+Channels: Results from each goroutine are collected via a channel and merged into a single response.
+
+Bonus Features Implemented
+
+
+
+
+
+Docker Containerization:
+
+
+
+
+
+A Dockerfile is included to containerize the application.
+
+
+
+Instructions for building and running the Docker image are provided above.
+
+
+
+Unit Tests:
+
+
+
+
+
+Unit tests for the GET /books/{id} endpoint are implemented in tests/book_test.go.
+
+
+
+Run tests with:
+
+go test ./tests
+
+
+
+Pagination:
+
+
+
+
+
+The GET /books endpoint supports pagination using query parameters limit and offset.
+
+
+
+Example: GET /books?limit=10&offset=20
+
+
+
+Kubernetes Deployment:
+
+
+
+
+
+Kubernetes manifest files are not included in this submission due to time constraints, but the application is compatible with Kubernetes. To deploy, create a deployment and service manifest, and use Minikube or Kind as specified.
