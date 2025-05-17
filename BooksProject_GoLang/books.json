@@ -1,0 +1,93 @@
+[
+ {
+  "bookId": "fgh5552",
+  "authorId": "257744g-98",
+  "publisherId": "36589742-8569",
+  "title": "The great gatsby",
+  "publicationDate": "12-03-2020",
+  "isbn": "TH345",
+  "pages": 200,
+  "genre": "Comic",
+  "description": "children comic book",
+  "price": 500,
+  "quantity": 0
+ },
+ {
+  "bookId": "afgrtr",
+  "authorId": "e0d91f68-a183-477d-8aa4-1f44ccc78a70",
+  "publisherId": "2f7b19e9-b268-4440-a15b-bed8177ed607",
+  "title": "Sherlock holmes",
+  "publicationDate": "1925-04-10",
+  "isbn": "9780743273565",
+  "pages": 180,
+  "genre": "Novel",
+  "description": "Magic books",
+  "price": 1000,
+  "quantity": 0
+ },
+ {
+  "bookId": "6",
+  "authorId": "e0d91f68-a183-477d-8aa4-1f44ccc78a70",
+  "publisherId": "2f7b19e9-b268-4440-a15b-bed8177ed608",
+  "title": "Alice in wonderland ",
+  "publicationDate": "1925-04-10",
+  "isbn": "9780743273578",
+  "pages": 8,
+  "genre": "Novel",
+  "description": "Magic books",
+  "price": 100,
+  "quantity": 7
+ },
+ {
+  "bookId": "7",
+  "authorId": "e0d91f68-a183-477d-8aa4-1f44ccc78a70",
+  "publisherId": "2f7b19e9-b268-4440-a15b-bed8177ed608",
+  "title": "AIW part 2 ",
+  "publicationDate": "1925-04-10",
+  "isbn": "9780743273578",
+  "pages": 8,
+  "genre": "Novel",
+  "description": "Alice in wonderland part 2",
+  "price": 100,
+  "quantity": 7
+ },
+ {
+  "bookId": "9",
+  "authorId": "e0d91f68-a183-477d-8aa4-1f44ccc78a70",
+  "publisherId": "2f7b19e9-b268-4440-a15b-bed8177ed608",
+  "title": "prince and the pauper",
+  "publicationDate": "1950-04-10",
+  "isbn": "9781234567874",
+  "pages": 80,
+  "genre": "Novel",
+  "description": "childrens book",
+  "price": 1000,
+  "quantity": 70
+ },
+ {
+  "bookId": "10",
+  "authorId": "e0d91f68-a183-477d-8aa4-1f44ccc78a70",
+  "publisherId": "2f7b19e9-b268-4440-a15b-bed8177ed608",
+  "title": "prince and the pauper",
+  "publicationDate": "1950-04-10",
+  "isbn": "9780743273523",
+  "pages": 80,
+  "genre": "Novel",
+  "description": "childrens book",
+  "price": 1000,
+  "quantity": 70
+ },
+ {
+  "bookId": "11",
+  "authorId": "e0d91f68-a183-477d-8aa4-1f44ccc78a70",
+  "publisherId": "2f7b19e9-b268-4440-a15b-bed8177ed608",
+  "title": "prince and the pauper",
+  "publicationDate": "1950-04-10",
+  "isbn": "9780743273524",
+  "pages": 80,
+  "genre": "Novel",
+  "description": "childrens book",
+  "price": 1000,
+  "quantity": 70
+ }
+]
